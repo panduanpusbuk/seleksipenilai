@@ -42,7 +42,7 @@ body {
   background-color: #B3C8CF;
   text-align: center;
   padding: 20px;
-  font-size: 28px;
+  font-size: 27px;
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   color: #463f3f;
   border-radius: 5px;
@@ -75,6 +75,11 @@ a.menuseleksi {
   text-align: center;
   margin: 25px;
   color: #000;
+}
+
+a.menuseleksi:hover{
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .menutitle {
@@ -113,6 +118,9 @@ margin-top: 20px;
   background-color: rgb(241, 238, 220);
   cursor: pointer;
   display: inline;
+}
+.menubox:hover {
+  background-color: #fff;
 }
 
 .kaki {
