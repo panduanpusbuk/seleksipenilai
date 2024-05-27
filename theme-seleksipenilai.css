@@ -49,16 +49,19 @@ a.menuseleksi {
   letter-spacing: -.022em;
   text-align: center;
   margin: 25px;
-  color: #fff;
+  color: #000;
 }
 
 .menutitle {
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   text-decoration: none;
   text-align: center;
-  background-color: #000;
+  background-color: rgb(119, 107, 93);
   color: #fff;
-  font-weight: 400;
+  font-weight: 300;
+  padding: 10px;
+  font-size: 18pt;
+  border-radius: 5px;
 }
 
 /* Customize container */
@@ -77,28 +80,17 @@ a.menuseleksi {
 }
 .wrapper-menuutama {
 text-align: center;
-margin-top: 5%;
+margin-top: 20px;
 }
 .menubox {
-  margin: 5px;
-  padding: 10px;
+  padding: 15px;
   border: 1px solid;
-  border-radius: 980px;
   background-color: #0071e3;
   cursor: pointer;
   display: inline;
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  .header {
-    margin-bottom: 30px;
-  }
+.kaki {
+  padding-left: 50px;
+  color: #777;
 }
