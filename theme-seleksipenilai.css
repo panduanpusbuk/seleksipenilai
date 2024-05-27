@@ -45,10 +45,10 @@ a.menuseleksi {
   font-size: 16pt;
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: -.022em;
   text-align: center;
-  margin: 5%;
+  margin: 25px;
   color: #fff;
 }
 
@@ -56,6 +56,9 @@ a.menuseleksi {
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   text-decoration: none;
   text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-weight: 400;
 }
 
 /* Customize container */
@@ -74,15 +77,16 @@ a.menuseleksi {
 }
 .wrapper-menuutama {
 text-align: center;
+margin-top: 5%;
 }
 .menubox {
-  margin: 5%;
+  margin: 5px;
   padding: 10px;
   border: 1px solid;
   border-radius: 980px;
   background-color: #0071e3;
   cursor: pointer;
-  display: inline-block;
+  display: inline;
 }
 
 /* Responsive: Portrait tablets and up */
