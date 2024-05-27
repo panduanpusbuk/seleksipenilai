@@ -37,14 +37,16 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
-.container {
+.mainpage {
   margin: 25%;
 }
 
-a {
+a.menuseleksi {
   font-size: 14pt;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
+  text-align: center;
+  margin: 5%;
 }
 
 /* Customize container */
