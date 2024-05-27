@@ -37,6 +37,16 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
+.container {
+  margin: 25%;
+}
+
+a {
+  font-size: 14pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
 /* Customize container */
 @media (min-width: 50%) {
   .container {
