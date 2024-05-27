@@ -42,7 +42,7 @@ body {
   background-color: #B3C8CF;
   text-align: center;
   padding: 20px;
-  font-size: 30px;
+  font-size: 28px;
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   color: #463f3f;
   border-radius: 5px;
@@ -52,7 +52,7 @@ body {
 .mainpage {
   margin-left: 20%;
   margin-right: 20%;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 .homeimage {
