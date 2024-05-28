@@ -94,6 +94,7 @@ a.menuseleksi:hover{
   border-radius: 5px;
   animation: blink 1.5s infinite;
   animation-fill-mode: both;
+  margin-bottom: 5px;
 }
 
 @keyframes blink {
