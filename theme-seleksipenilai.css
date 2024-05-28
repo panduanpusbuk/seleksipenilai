@@ -92,7 +92,15 @@ a.menuseleksi:hover{
   padding: 5px;
   font-size: 13pt;
   border-radius: 5px;
+  animation: blink 1.5s infinite;
+  animation-fill-mode: both;
 }
+
+@keyframes blink {
+   0% { opacity: 0 }
+   50% { opacity: 1 }
+   100% { opacity: 0 }
+   }
 
 .menutitle {
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
